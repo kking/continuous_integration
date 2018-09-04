@@ -94,7 +94,7 @@ gradle-app.setting
 
 5. Proceed with the remaining import settings for the project to complete its importation. Create or push changes to its repository in the class’s GitHub organization.
 
-6. Access GitHub Classroom and create a new individual assignment using the repository that had just been created under **Add your starter code from GitHub**.
+6. Access GitHub Classroom and create a new individual assignment using the repository that had just been created under Add your starter code from GitHub.
 
 7. Access travis-ci.com. Select the (+) next to My Repositories and select Sync account. Locate the project as listed, and toggle the tick mark to the left of it.
 
