@@ -2,18 +2,17 @@
 
 Using Gradle projects built from IntelliJ IDEA and monitored through GitHub and Travis CI, this guide will introduce the practice of **continuous integration** within in the context of **test-driven development** for classroom assignments.
 
-
 ## Importing an Existing Project
 
 1. Select the GitHub Classroom invitation link associated with the current assignment. Once the individual assignment has been created, create a clone of its repository (refer to **GitHub Setup Guide + Assignment Clone** listed on Canvas, stopping at the steps for which a project is imported and proceed to step 2).
 
 2. From the **IntelliJ IDEA** ‘Welcome’ screen, select **Import Project**, locate the project’s main directory in the **Select File or Directory to Import** window, and select the **build.gradle** file. Selecting the file directly guarantees that the IDE will recognize the project as a Gradle project.
 
-![build.gradle](resources/gradleBuildSelection.png)
+![build.gradle](images/gradleBuildSelection.png)
 
 3. On the **Import Project from Gradle** page, uncheck **Create separate module per source set**, and select the radio button for **Use default gradle wrapper**. The Gradle Wrapper allows students to use Gradle without having to install it manually.
 
-![Gradle Wrapper](resources/gradleWrapperSelection.png)
+![Gradle Wrapper](images/gradleWrapperSelection.png)
 
 4. Proceed with the remaining import settings for the project to complete its importation.
 
@@ -42,7 +41,7 @@ By convention, these files may exist within the project’s repository without i
 
 6. Optionally, running individual tasks and the project’s assembly and test configurations may be accessed from the Gradle tab in the right sidebar:
 
-![Gradle](resources/gradleSidebarTab.png)
+![Gradle](images/gradleSidebarTab.png)
 
 ## Project Structure
 
@@ -84,12 +83,12 @@ Lastly, the **README.md** file must include a build status badge as provided by 
 
 3. Add the build status badge to the project’s **README.md** file. Select the **status image** next to the project’s title in Travis Ci, select **markdown** from the **Image Url** dropdown menu, and copy the resulting code. 
 
-![Status Image Markdown](resources/statusImageSelection.png)
+![Status Image Markdown](images/statusImageSelection.png)
 
 4. Insert this code into the **README.md file**, just below the second header, and commit and push this change to the project’s repository. 
 
-![README.md](resources/readMeStatus.png)
+![README.md](images/readMeStatus.png)
 
-Builds may now be accessed through clicking the build status image from GitHub or logging into https://travis-ci.com/. Viewing the **Job log** presents data similar to running the project’s JUnit tests manually or invoking the Gradle tasks/configurations through IntelliJ.
+Builds may now be accessed through clicking the build status image from GitHub or logging into https://travis-ci.com/. Viewing the **Job log** presents data similar to running the project’s JUnit tests manually or invoking the Gradle tasks/configurations through IntelliJ IDEA.
 
 From this point, coding and testing is readily observable through both a **version control system** (in our case, Git) and **continuous integration** software (Travis CI). Exposure to industry-standard tools and practices utilized in software engineering will prove to be beneficial to your progress in computer science and related disciplines. 

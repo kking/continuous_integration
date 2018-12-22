@@ -1,0 +1,27 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+// Define source sets which deviate from the default setup expected in Gradle projects
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
+}
+
+// Define external dependencies using Maven
+repositories {
+    mavenCentral()
+}
+
+// Access JUnit testing library
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
