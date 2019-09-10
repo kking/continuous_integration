@@ -10,7 +10,7 @@ Using Gradle projects built from IntelliJ IDEA and monitored through GitHub and 
 
 ![build.gradle](images/gradleBuildSelection.png)
 
-3. On the **Import Project from Gradle** page, uncheck **Create separate module per source set**, and select the radio button for **Use default gradle wrapper**. The Gradle Wrapper allows students to use Gradle without having to install it manually.
+3. On the **Import Project from Gradle** page, uncheck **Create separate module per source set**, and select the radio button for **Use gradle 'wrapper' task configuration**. The Gradle Wrapper allows students to use Gradle without having to install it manually.
 
 ![Gradle Wrapper](images/gradleWrapperSelection.png)
 
